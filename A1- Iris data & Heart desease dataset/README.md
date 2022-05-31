@@ -35,4 +35,7 @@ The kurtosis is highly tailed for value > 3 and  low tailed for value < 3.
 ### CM4 - 
 Using KNN classifier, we trained the model using (80%, 20%) sci-kit learn train test split function to get the same split every time we run the program.
 
-By using K-fold Cross Validation (k = 5) avg accuacy for Iris data came as 96.2 %
+By using K-fold Cross Validation (k = 5) avg accuacy for Iris data came as <b> 96.2 % </b>
+
+By using (90%, 10%) split for Heart disease dataset fitted the KNN classifier for a range of k values (1 to 25) and stored accuracy scores across all the k values for comparison. Highest <b> 78% </b> accuracy was achieved at k = 9 for Heart Disease data.
+
