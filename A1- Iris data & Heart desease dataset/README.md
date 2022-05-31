@@ -12,7 +12,15 @@ The dataset contains 14 features (attributes) and 303 instances. The features ar
     1) Check for duplicate values
     2) Removing negative values and replacing with NAN 
     3) Checking Outliers (using boxplot and inter quartile range)
+    
 Normalization of the data using min-max normalization (MinMaxScaler) and Z-score normalization. The un-normalised data is having different units for different columns which might produce bias while computing. To reduce this, dataset is normalised.                                                        
 
-Min-Max normalization ranges between [0-1] but a presence of outlier might affect the distribution/values. Thus, it is highly recommended to remove outliers before performing min-max normalisation.                                                        
-In z-score normalisation, the features are scaled such that they have properties similar to normal distribution where mean is zero and standard deviation is one.
+Min-Max normalization ranges between [0-1] but a presence of outlier might affect the distribution/values. Thus, it is highly recommended to remove outliers before performing min-max normalization.                                                        
+In z-score normalization, the features are scaled such that they have properties similar to normal distribution where mean is zero and standard deviation is one.
+
+### CM2 - Pair Plot/ Scatter Plot / Heat Map
+
+From the correlation graphs we can observe various correlation coefficients amongst the dataset features in the form of scatter plots. Same with the heat map with a particular representing positive correlation and other color showing negative correlation.
+Correlation comparison with targets can help us figure out the main features. These features playes major role in figuring out our target variable over the testing dataset.
+
+
