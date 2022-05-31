@@ -23,4 +23,16 @@ In z-score normalization, the features are scaled such that they have properties
 From the correlation graphs we can observe various correlation coefficients amongst the dataset features in the form of scatter plots. Same with the heat map with a particular representing positive correlation and other color showing negative correlation.
 Correlation comparison with targets can help us figure out the main features. These features playes major role in figuring out our target variable over the testing dataset.
 
+### CM3 - Data Exploration - Correlation Coefficient (Heat Map), Mean, Variance, Skew, and Kurtosis
+We know that <b> variance </b> is a measure of how spread out a data set is. It is calculated as the average squared deviation of each number from the mean of a data set. 
 
+skewness is a measure of the asymmetry of the probability distribution of a real-valued random variable about its mean. The skewness value can be positive, zero, negative, or undefined. Negative skew commonly indicates that the tail is on the left side of the distribution, and positive skew indicates that the tail is on the right.
+
+Kurtosis is a statistical measure that defines how heavily the tails of a distribution differ from the tails of a normal distribution. It identifies whether the tails of a given distribution contain extreme values. The kurtosis of a normal distribution equals 3. Therefore, the excess kurtosis is found using the formula: Excess Kurtosis = Kurtosis – 3. The kurtosis for normal data distrubtion has a value of 3.
+The kurtosis is highly tailed for value > 3 and  low tailed for value < 3.
+
+### Question 2: KNN
+### CM4 - 
+Using KNN classifier, we trained the model using (80%, 20%) sci-kit learn train test split function to get the same split every time we run the program.
+
+By using K-fold Cross Validation (k = 5) avg accuacy for Iris data came as 96.2 %
