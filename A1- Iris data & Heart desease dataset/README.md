@@ -32,10 +32,25 @@ Kurtosis is a statistical measure that defines how heavily the tails of a distri
 The kurtosis is highly tailed for value > 3 and  low tailed for value < 3.
 
 ### Question 2: KNN
-### CM4 - 
-Using KNN classifier, we trained the model using (80%, 20%) sci-kit learn train test split function to get the same split every time we run the program.
+### CM4 - KNN Classifier
+Using KNN classifier on Iris Data, we trained the model using (80%, 20%) sci-kit learn train test split function to get the same split every time we run the program.
 
-By using K-fold Cross Validation (k = 5) avg accuacy for Iris data came as <b> 96.2 % </b>
+By using K-fold Cross Validation (k = 5) avg accuracy for Iris data came as <b> 96.2 % </b>
 
 By using (90%, 10%) split for Heart disease dataset fitted the KNN classifier for a range of k values (1 to 25) and stored accuracy scores across all the k values for comparison. Highest <b> 78% </b> accuracy was achieved at k = 9 for Heart Disease data.
 
+### CM5 - Plotting and Visualizing results
+Accuracy vs K plotting for Iris Dataset
+
+
+Accuracy vs K plotting for Heart Disease dataset
+
+
+### CM6 - accuracy, AUC, f-score of kNN classifier
+
+In the Iris dataset,the accuracy increases with the increasing value of k and reaches its highest value at k=5. It remains stable between k = [5,10] after which it starts decreasing. The increasing value of K reduces the accuracy since the model is unable to differentiate between the classes. Thus, based on these observations k=5 is selected as the best fitting parameter.
+
+In Heart disease dataset, the accuracy increases with the increasing value of K and achieves max value at k=11. However, this is the case of overfitting due to limited values of validation set and cannot be considered. Thus, K=14 is selected after testing the data.
+
+### CM7 - Improved model using Weighted KNN
+Used Weighted KNN with (default, manhatten, euclidean) to see their effects on improving accuracy.
