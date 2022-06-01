@@ -42,6 +42,9 @@ By using (90%, 10%) split for Heart disease dataset fitted the KNN classifier fo
 ### CM5 - Plotting and Visualizing results
 Accuracy vs K plotting for Iris Dataset
 
+![image](https://user-images.githubusercontent.com/24928445/171331609-80f4c975-0a9a-4058-847a-ae5dc0b27303.png)
+
+
 
 Accuracy vs K plotting for Heart Disease dataset
 
