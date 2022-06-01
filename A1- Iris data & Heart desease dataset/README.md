@@ -48,6 +48,8 @@ Accuracy vs K plotting for Iris Dataset
 
 Accuracy vs K plotting for Heart Disease dataset
 
+![image](https://user-images.githubusercontent.com/24928445/171331736-08b5b0fd-67a8-4885-96fb-00437199100f.png)
+
 
 ### CM6 - accuracy, AUC, f-score of kNN classifier
 
