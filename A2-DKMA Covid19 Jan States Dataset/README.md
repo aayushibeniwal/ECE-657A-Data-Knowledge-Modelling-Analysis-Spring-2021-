@@ -44,4 +44,26 @@ Note that the labels are fairly unbalanced, so there are quite a few more True c
 
 ### [CM2] Representation Learning (Applying PCA LDA)
 
+### [CM3] Decision Tree Classifier
+
+Classified the data using Decision Tree and tuned the hyper-parameters of the classifier using k-fold cross validation and sklearn functions. Evaluated the best value for the number of trees and maximum depth of trees. For decision trees we tried a range of parameters including the following:
+• max depth: {3, 5, 10, None}
+• None: (grow until leaf contains 2 datapoints)
+and plotted the mean accuracy versus the maximum depth. 
+
+### [CM4] Random Forest Classifier
+
+For random forest we tried a range of parameters including the following: 
+• number of trees: {5, 10, 50, 150, 200}
+• max depth: {3, 5, 10, None}
+We also plotted a heat plot. We got (5 * 4) mean accuracies for different values of number of trees and maximum depth.
+
+### [CM5] Gradient Tree Boosting
+
+For Gradient Tree Boosting (on sklearn it is GradientBoostingClassifier):
+• number of estimators: {5, 10, 50, 150, 200}
+For this, we plotted the mean accuracy versus the number of estimators.
+Note: the number of ‘trees’ grown by GBT is n classes × n estimators but this is handled automatically. 
+
+### [CM6] 
 
