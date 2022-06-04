@@ -65,5 +65,13 @@ For Gradient Tree Boosting (on sklearn it is GradientBoostingClassifier):
 For this, we plotted the mean accuracy versus the number of estimators.
 Note: the number of ‘trees’ grown by GBT is n classes × n estimators but this is handled automatically. 
 
-### [CM6] 
+### [CM6] Naive Bayes Classifier
+
+Classified the data using the Naive Bayes Classifier using GaussianNB in sklearn. Tuned the hyper-parameters of the classifier using 10-fold cross validation and sklearn functions. 
+Evaluated the best value for the var smoothing among the values {1e-10, 1e- 9, 1e-5, 1e-3, 1e-1}.
+
+### [CM7] Interpretability
+
+### [CM8] Kaggle
+
 
