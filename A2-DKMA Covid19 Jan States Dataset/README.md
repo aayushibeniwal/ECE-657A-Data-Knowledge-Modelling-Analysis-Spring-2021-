@@ -42,4 +42,6 @@ Note that the labels are fairly unbalanced, so there are quite a few more True c
 #### 4) The state and stateId represented the same information so the 'State' column was dropped. We have kept the 'Day' and 'State ID' so that the data may be grouped according to state for any future reference in the following CM's. However, these values will not be used for calculation purposes.
 #### 5) We used z-score normalization since the columns would be normally distributed with a specified range of values and most of the classifiers calculate the distance between points for classification. Min Max scaler is not used as presence of outlier might affect its values and since the data is generated over a specific population, there might be chances of outliers.
 
-### [CM2] 
+### [CM2] Representation Learning (Applying PCA LDA)
+
+
